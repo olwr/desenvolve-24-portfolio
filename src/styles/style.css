@@ -1,0 +1,151 @@
+/* Common CSS Between Pages */
+.menu-container {
+    padding: 2% 0% 0% 15%;
+}
+
+.menu-container .menu-nav {
+    display: flex;
+    gap: 8rem;
+}
+
+.menu-container .menu-nav a {
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 1.8rem;
+}
+
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5% 15%;
+    padding-bottom: 2.5%;
+}
+
+.main-container .presentation {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.presentation .pg-text-container .pg-title {
+    font-family: var(--title-font-family);
+    font-weight: 700;
+    font-size: 3.6rem;
+}
+
+.presentation .pg-text-container .pg-desc {
+    margin-top: 3%;
+    font-size: 1.8rem;
+    line-height: 1.4;
+}
+
+footer {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 2rem;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+}
+
+/* Home's CSS */
+
+.presentation .pg-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3.2rem;
+}
+
+.presentation .pg-links .pg-subtitle {
+    font-weight: 500;
+    font-size: 1.8rem;
+}
+
+.presentation .pg-links a {
+    width: 60%;
+    padding: 2.15rem 0;
+    text-align: center;
+    border-radius: 0.8rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.main-container .img-container {
+    width: 35%;
+}
+
+.main-container .img-container img {
+    width: 100%;
+    border-radius: 5rem 2.5rem;
+}
+
+/* Resume's CSS */
+
+.main-container.resume {
+    margin: 4% 10%;
+    align-items: normal;
+}
+
+.presentation .pg-text-container .resume-div-title {
+    font-size: 2rem;
+    margin-top: 3%;
+}
+
+.presentation .pg-text-container .resume-text {
+    margin-top: 1.5%;
+    margin-left: 2%;
+    font-size: 1.6rem;
+}
+
+.pg-text-container .resume-div-subtitle-container {
+    display: flex;
+    align-items: baseline;
+    gap: 2rem;
+    margin-top: 1.2%;
+}
+
+.pg-text-container .resume-text strong {
+    font-weight: 600;
+}
+
+.pg-text-container .resume-text i {
+    font-style: italic;
+}
+
+.pg-text-container .date {
+    text-align: right;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.pg-text-container .exp-list {
+    list-style-type:'\2192  ';
+    margin-top: 1.2%;
+    margin-left: 3%;
+    line-height: 1.2;
+    font-size: 1.5rem;
+}
+
+.pg-text-container .course-desc {
+    margin-top: 1.2%;
+    margin-left: 3%;
+    line-height: 1.2;
+    font-size: 1.5rem;
+}
+
+.pitch-video {
+    left: 0;
+    width: 35%;
+    height: 35.2rem;
+    position: relative;
+}
+
+.pitch-video .pg-subtitle {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 5%;
+}

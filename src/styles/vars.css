@@ -1,0 +1,39 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Protest+Strike&display=swap');
+
+html {
+    /* 62.5% of 16px = 10px */
+    font-size: 62.5%;
+}
+
+body {
+    /* 16px */
+    font-size: 1.6rem;
+}
+
+:root {
+    --font-color-dark: #2a2a2a;
+    --font-color-light: #d8d8d8;
+    --secondary-color-light: #ECB365;
+    --secondary-color-dark: #113946;
+    --hover-color-dark: rgba(17, 57, 70, 0.1);
+    --hover-color-light: rgba(236, 179, 101, 0.1);
+    --title-font-family: 'Protest Strike', sans-serif;
+    --pg-font-family: 'JetBrains Mono', monospace;
+
+    position: relative;
+    min-height: 100vh;
+    box-sizing: border-box;
+
+    font-family: var(--pg-font-family);
+}
+
+/* Works on Firefox */
+* {
+    scrollbar-width: none;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 0;
+}

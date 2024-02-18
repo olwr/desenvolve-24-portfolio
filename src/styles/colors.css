@@ -1,0 +1,156 @@
+/* Light mode */
+body {
+    background: rgb(234,215,187);
+    background: -moz-linear-gradient(90deg, rgba(234,215,187,1) 29%, rgba(188,163,127,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(234,215,187,1) 29%, rgba(188,163,127,1) 100%);
+    background: linear-gradient(90deg, rgba(234,215,187,1) 29%, rgba(188,163,127,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ead7bb",endColorstr="#bca37f",GradientType=1);
+
+    color: var(--font-color-dark);
+    transition: all 0.3s ease-in-out;
+}
+
+.menu-container .menu-nav a {
+    color: var(--secondary-color-dark);
+}
+
+.pg-text-container .pg-title strong {
+    color: var(--secondary-color-dark);
+}
+
+.presentation .pg-links i {
+    color: var(--secondary-color-dark);
+}
+
+.presentation .pg-links a {
+    color: var(--font-color-dark);
+    border: 2px solid var(--secondary-color-dark);
+}
+
+.presentation .pg-links a:hover {
+    background-color: var(--hover-color-dark);
+}
+
+.presentation .pg-text-container .resume-div-title {
+    color: var(--font-color-dark);
+}
+
+.footer-container {
+    background-color: var(--secondary-color-dark);
+    color: var(--font-color-light);
+}
+
+/* --- */
+
+/* Dark mode */
+body.dark {
+    background: rgb(4,41,58);
+    background: -moz-linear-gradient(90deg, rgba(4,41,58,1) 29%, rgba(4,28,50,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(4,41,58,1) 29%, rgba(4,28,50,1) 100%);
+    background: linear-gradient(90deg, rgba(4,41,58,1) 29%, rgba(4,28,50,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#04293a",endColorstr="#041c32",GradientType=1);
+
+    color: var(--font-color-light);
+}
+
+body.dark .menu-nav a {
+    color: var(--secondary-color-light);
+}
+
+body.dark .pg-title strong {
+    color: var(--secondary-color-light);
+}
+
+body.dark .pg-links i {
+    color: var(--secondary-color-light);
+}
+
+body.dark .pg-links a {
+    color: var(--font-color-light);
+    border: 2px solid var(--secondary-color-light);
+}
+
+body.dark .pg-links a:hover {
+    background-color: var(--hover-color-light);
+}
+
+body.dark .pg-text-container .resume-div-title {
+    color: var(--secondary-color-light);
+}
+
+body.dark .footer-container{
+    background-color: var(--secondary-color-light);
+    color: var(--font-color-dark);
+}
+
+/* --- */
+
+/* Toggle Button */
+
+.toggle-container {
+    display: flex;
+    position: fixed;
+    right: 0;
+    margin-top: 1%;
+    margin-right: 1%;
+    /* gap: 1rem; */
+}
+
+.toggle-container .temp-div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: end;
+}
+
+.toggle-container .temp-div p {
+    font-size: 1rem;
+}
+
+.toggle-container .label-switch {
+    color: var(--font-color-dark);
+    font-size: 1rem;
+}
+
+body.dark .toggle-container .label-switch {
+    color: var(--font-color-light);
+}
+
+.color-switch,
+.language-switch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.5rem;
+    width: 5rem;
+    position: relative;
+    background-color: var(--secondary-color-light);
+    border-radius: 10rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+body.dark .toggle-container .color-switch,
+body.dark .toggle-container .language-switch {
+    background-color: var(--secondary-color-dark);
+}
+
+.color-switch::before,
+.language-switch::before {
+    content: '';
+    position: absolute;
+    height: 2.2rem;
+    width: 2.2rem;
+    background-color: var(--font-color-dark);
+    border-radius: 50%;
+    top: 50%;
+    left: 0.2rem;
+    transform: translateY(-50%);
+    transition: all 0.3s ease-in-out;
+}
+
+.color-switch.active::before,
+.language-switch.active::before {
+    background-color: var(--font-color-light);
+    left: calc(100% - 2.2rem - 0.2rem);
+}
