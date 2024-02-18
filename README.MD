@@ -1,6 +1,6 @@
 # Meu Portfólio - Desenvolve
 
-Projeto desenvolvido duranta as primeiras semanas do curso da iniciativa Desenvolve, projeto promovido pelo Grupo Boticário e a escola Alura.
+Projeto desenvolvido durante as primeiras semanas do curso da iniciativa Desenvolve, projeto promovido pelo Grupo Boticário e a escola Alura.
 
 ##### Licenças
 
