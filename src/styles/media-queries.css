@@ -1,0 +1,278 @@
+@media all and (width < 500px) {
+
+    .menu-container {
+        padding: 10% 10% 5% 10%;
+    }
+
+    .menu-container .menu-nav {
+        justify-content: center;
+        gap: 3rem;
+    }
+
+    .menu-container .menu-nav a {
+        font-size: 1.3rem;
+    }
+
+    .main-container {
+        flex-direction: column-reverse;
+        margin-top: 2%;
+        padding: 5%;
+    }
+
+    .main-container .presentation {
+        width: auto;
+    }
+
+    .presentation .pg-text-container .pg-title {
+        font-size: 2.6rem;
+        margin-top: 10%;
+    }
+
+    .presentation .pg-text-container .pg-desc {
+        font-size: 1.4rem;
+        margin: 5% 0;
+    }
+
+    .footer-container {
+        font-size: 1.3rem;
+        position: relative;
+    }
+
+    /* Home */
+    .presentation .pg-links {
+        gap: 2rem;
+        margin-top: 10%;
+    }
+
+    .presentation .pg-links .pg-subtitle {
+        font-size: 1.5rem;
+    }
+
+    .presentation .pg-links a {
+        width: 70%;
+        padding: 1.15rem 0;
+        font-size: 1.5rem;
+    }
+
+    .main-container .img-container {
+        width: 90%;
+        margin-bottom: 3%;
+    }
+
+    /* About */
+    .playlist-container-desktop {
+        visibility: collapse;
+    }
+
+    .playlist-container-compact {
+        visibility: visible;
+        margin-bottom: 5%;
+    }
+
+    /* Resume */
+    .presentation .pg-text-container .resume-text {
+        font-size: 1.5rem;
+    }
+
+    .pg-text-container .exp-list,
+    .pg-text-container .course-desc {
+        font-size: 1.4rem;
+    }
+
+    .pitch-video {
+        width: auto;
+        height: auto;
+    }
+
+    .pitch-video .pg-subtitle {
+        margin-bottom: 2%;
+    }
+
+    /* Toggle Buttons */
+    .toggle-container .temp-div p {
+        font-size: 0.8rem;
+    }
+
+
+    .color-switch,
+    .language-switch {
+        width: 4rem;
+        height: 2rem;
+    }
+
+    .color-switch::before,
+    .language-switch::before {
+        width: 1.8rem;
+        height: 1.8rem;
+    }
+
+    .color-switch.active::before,
+    .language-switch.active::before {
+        left: calc(100% - 1.8rem - 0.2rem);
+    }
+}
+
+@media all and (width >=500px) and (width < 768px) {
+
+    .menu-container {
+        padding: 10% 10% 5% 10%;
+    }
+
+    .menu-container .menu-nav {
+        justify-content: center;
+        gap: 3rem;
+    }
+
+    .menu-container .menu-nav a {
+        font-size: 1.5rem;
+    }
+
+    .main-container {
+        flex-direction: column-reverse;
+        margin-top: 2%;
+        padding: 5%;
+    }
+
+    .main-container .presentation {
+        width: auto;
+    }
+
+    .presentation .pg-text-container .pg-title {
+        font-size: 3rem;
+        margin-top: 10%;
+    }
+
+    .presentation .pg-text-container .pg-desc {
+        font-size: 1.6rem;
+        margin: 5% 0;
+    }
+
+    .footer-container {
+        font-size: 1.5rem;
+        position: relative;
+    }
+
+    /* Home */
+    .presentation .pg-links {
+        gap: 2rem;
+        margin-top: 10%;
+    }
+
+    .presentation .pg-links .pg-subtitle {
+        font-size: 1.7rem;
+    }
+
+    .presentation .pg-links a {
+        width: 100%;
+        padding: 1.15rem 0;
+        font-size: 1.5rem;
+    }
+
+    .main-container .img-container {
+        width: 85%;
+        margin-bottom: 3%;
+    }
+
+    /* About */
+    .playlist-container-desktop {
+        visibility: collapse;
+    }
+
+    .playlist-container-compact {
+        visibility: visible;
+        margin-bottom: 5%;
+    }
+
+    /* Resume */
+    .presentation .pg-text-container .resume-text {
+        font-size: 1.6rem;
+    }
+
+    .pg-text-container .exp-list,
+    .pg-text-container .course-desc {
+        font-size: 1.5rem;
+    }
+
+    .pitch-video {
+        width: 95%;
+        height: auto;
+    }
+
+    .pitch-video .pg-subtitle {
+        margin-bottom: 2%;
+    }
+
+    /* Toggle Buttons */
+    .toggle-container .temp-div p {
+        font-size: 0.8rem;
+    }
+
+
+    .color-switch,
+    .language-switch {
+        width: 4rem;
+        height: 2rem;
+    }
+
+    .color-switch::before,
+    .language-switch::before {
+        width: 1.8rem;
+        height: 1.8rem;
+    }
+
+    .color-switch.active::before,
+    .language-switch.active::before {
+        left: calc(100% - 1.8rem - 0.2rem);
+    }
+}
+
+@media all and (width >=768px) and (width < 1280px) {
+
+    .menu-container {
+        padding: 5%;
+    }
+
+    .menu-container .menu-nav {
+        justify-content: center;
+    }
+
+    .main-container {
+        margin-top: 2%;
+    }
+
+    .presentation .pg-text-container .pg-title {
+        font-size: 3.2rem;
+    }
+
+    .presentation .pg-text-container .pg-desc {
+        font-size: 1.7rem;
+        margin: 5% 0;
+    }
+
+    .footer-container {
+        font-size: 1.6rem;
+    }
+
+    /* Home */
+    .presentation .pg-links {
+        gap: 2rem;
+        margin-top: 10%;
+    }
+
+    .presentation .pg-links a {
+        width: 80%;
+        padding: 1.15rem 0;
+        font-size: 1.6rem;
+    }
+
+    .main-container .img-container {
+        width: 40%;
+    }
+
+    /* Resume */
+    .pitch-video {
+        width: 45%;
+        height: auto;
+    }
+
+}

@@ -24,9 +24,6 @@
 
 .main-container .presentation {
     width: 50%;
-    display: flex;
-    flex-direction: column;
-    gap: 4rem;
 }
 
 .presentation .pg-text-container .pg-title {
@@ -41,7 +38,7 @@
     line-height: 1.4;
 }
 
-footer {
+.footer-container {
     width: 100%;
     box-sizing: border-box;
     padding: 2rem;
@@ -50,13 +47,13 @@ footer {
     bottom: 0;
 }
 
-/* Home's CSS */
-
+/* Home */
 .presentation .pg-links {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 3.2rem;
+    margin-top: 5%;
 }
 
 .presentation .pg-links .pg-subtitle {
@@ -83,8 +80,12 @@ footer {
     border-radius: 5rem 2.5rem;
 }
 
-/* Resume's CSS */
+/* About */
+.playlist-container-compact {
+    visibility: collapse;
+}
 
+/* Resume */
 .main-container.resume {
     margin: 4% 10%;
     align-items: normal;
