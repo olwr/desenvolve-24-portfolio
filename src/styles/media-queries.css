@@ -60,13 +60,13 @@
     }
 
     /* About */
-    .playlist-container-desktop {
-        visibility: collapse;
+    .main-container.about {
+        flex-direction: column;
     }
 
-    .playlist-container-compact {
-        visibility: visible;
-        margin-bottom: 5%;
+    .playlists {
+        width: 110%;
+        margin-top: 1.5rem;
     }
 
     /* Resume */
@@ -174,13 +174,18 @@
     }
 
     /* About */
-    .playlist-container-desktop {
-        visibility: collapse;
+
+    .main-container.about {
+        flex-direction: column;
     }
 
-    .playlist-container-compact {
+    .playlists {
+        width: 100%;
+        margin-top: 1.5rem;
+    }
+
+    .playlist-container-desktop {
         visibility: visible;
-        margin-bottom: 5%;
     }
 
     /* Resume */

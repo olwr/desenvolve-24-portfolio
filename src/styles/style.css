@@ -81,8 +81,8 @@
 }
 
 /* About */
-.playlist-container-compact {
-    visibility: collapse;
+.playlists {
+    width: 40%;
 }
 
 /* Resume */
