@@ -2,6 +2,12 @@
 
 Projeto desenvolvido durante as primeiras semanas do curso da iniciativa Desenvolve, projeto promovido pelo Grupo Boticário e a escola Alura.
 
+![gif mostrando as 3 páginas do portfólio (home, sobre mim e currículo) e a funcionalidade do dark mode](src/assets/portfolio.gif)
+
+## Vercel
+
+[![Deploy with Vercel](https://vercel.com/button)](https://desenvolve-24-portfolio.vercel.app/index.html)
+
 ##### Licenças
 
 ###### Favicon
