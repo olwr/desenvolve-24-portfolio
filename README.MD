@@ -1,6 +1,6 @@
 # Meu Portfólio - Desenvolve
 
-Projeto desenvolvido durante as primeiras semanas do curso da iniciativa Desenvolve, projeto promovido pelo Grupo Boticário e a escola Alura.
+Projeto desenvolvido durante as primeiras semanas do curso da iniciativa Desenvolve, projeto promovido pelo Grupo Boticário e a escola Alura. O obejtivo do projeto foi firmar a base de front-end, com as tecnologias usadas sendo HTML5, CSS3 e Javascript, todos "puros" (sem frameworks).
 
 ![gif apresentando brevemente um site portfólio, constituído de 3 páginas (home, sobre mim e currículo), e demonstrando a funcionalidade da troca de cores de acordo com a preferência do usuário (light mode e dark mode).](src/assets/portfolio.gif)
 
